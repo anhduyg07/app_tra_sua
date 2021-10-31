@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.anhduy.bantrasua.activity.MainActivity;
 import com.anhduy.bantrasua.activity.WelcomeActivity;
+import com.anhduy.bantrasua.ultil.CheckConnection;
 
 public class SplashScreen extends AppCompatActivity {
 
@@ -14,8 +15,15 @@ public class SplashScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        Intent intent=new Intent(this, WelcomeActivity.class);
-        startActivity(intent);
-        finish();
+        if(CheckConnection.haveNetworkConnection(getApplicationContext())){
+            Intent intent=new Intent(this, WelcomeActivity.class);
+            startActivity(intent);
+            finish();
+        }else{
+            CheckConnection.ShowToast_short(getApplicationContext(),"Bạn Hãy Kiểm Tra Lại Kết Nối");
+            finish();
+        }
+
+
     }
 }

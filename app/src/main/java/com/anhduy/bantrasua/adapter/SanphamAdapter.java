@@ -1,6 +1,7 @@
 package com.anhduy.bantrasua.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.anhduy.bantrasua.R;
+import com.anhduy.bantrasua.activity.ChiTietSanPhamActivity;
 import com.anhduy.bantrasua.model.Sanpham;
 import com.squareup.picasso.Picasso;
 
@@ -45,8 +47,6 @@ public class SanphamAdapter extends RecyclerView.Adapter<SanphamAdapter.ItemHold
                 .placeholder(R.drawable.outline_broken_image_black_48)
                 .error(R.drawable.outline_warning_black_48)
                 .into(itemHolder.imghinhsanpham);
-
-
     }
 
     @Override
@@ -63,6 +63,15 @@ public class SanphamAdapter extends RecyclerView.Adapter<SanphamAdapter.ItemHold
             imghinhsanpham=(ImageView)itemView.findViewById(R.id.imageviewsanpham);
             txttensanpham=(TextView)itemView.findViewById(R.id.textviewtensanpham);
             txtgiasanpham=(TextView)itemView.findViewById(R.id.textviewgiasanpham);
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(context, ChiTietSanPhamActivity.class);
+                    intent.putExtra("thongtinsanpham",arraysanpham.get(getLayoutPosition()));
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    context.startActivity(intent);
+                }
+            });
         }
     }
 
