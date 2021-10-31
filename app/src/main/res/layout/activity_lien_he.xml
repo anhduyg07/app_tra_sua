@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarlienhe"
+        android:background="#F3F3F3"
+        app:title="Liên Hệ"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+    </androidx.appcompat.widget.Toolbar><![CDATA[
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+    ]]>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/icon"
+        />
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+        <TextView
+            android:layout_marginLeft="7dp"
+            android:text="Hồ Lê Anh Duy - 1811062086"
+            android:textColor="#0d0d0d"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+        <TextView
+            android:layout_marginLeft="7dp"
+
+            android:text="Ðặng Hoài Phúc - 1811060999"
+            android:textColor="#0d0d0d"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+        <TextView
+            android:layout_marginLeft="7dp"
+
+            android:text="Nguyễn Minh Nhựt - 1811063073"
+            android:textColor="#0d0d0d"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

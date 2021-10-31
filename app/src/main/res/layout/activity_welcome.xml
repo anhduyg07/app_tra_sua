@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".activity.WelcomeActivity">
+
+    <View
+        android:id="@+id/icon"
+        android:layout_width="118dp"
+        android:layout_height="195dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="146dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="63dp"
+        android:background="@drawable/icon" />
+
+    <TextView
+        android:fontFamily="@font/dmsans_bold"
+        android:id="@+id/tr_s_a"
+        android:layout_width="225dp"
+        android:layout_height="81dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="93dp"
+        android:layout_marginTop="325dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Trà sữa"
+        android:textColor="#E2C481"
+        android:textSize="62sp" />
+
+    <TextView
+        android:fontFamily="@font/dmsans_bold"
+        android:id="@+id/ly_ai_n_y_u"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="131dp"
+        android:layout_marginTop="427dp"
+        android:gravity="center_vertical"
+        android:letterSpacing="-0.04"
+        android:text="Ly ai nấy uống"
+        android:textColor="#2E3A59"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="305dp"
+        android:layout_height="58dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="555dp"
+        android:background="@drawable/rectangle_1"
+        android:fontFamily="@font/dmsans_bold"
+        android:text="Đăng ký"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:fontFamily="@font/dmsans_bold"
+        android:id="@+id/btn_login"
+        android:layout_width="305dp"
+        android:layout_height="58dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="629dp"
+        android:text="Đăng nhập"
+        android:textSize="20sp"
+        android:textColor="#E2C481"
+        android:background="@drawable/rectangle_2" />
+</RelativeLayout>

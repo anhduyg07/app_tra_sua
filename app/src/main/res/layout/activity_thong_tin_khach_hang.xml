@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F3F3"
+    tools:context=".activity.ThongTinKhachHangActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="120dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="60dp"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#0a0a0a"
+            android:gravity="center"
+            android:text="Thông Tin Khách Hàng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edittexttenkhachhang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#F9A423"
+                android:hint="Tên Khách Hàng"
+                android:inputType="textPersonName"
+                android:singleLine="true"
+                android:textCursorDrawable="@null"
+                android:textSize="22sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edittextsdtkhachhang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#F9A423"
+                android:hint="Số Điện Thoại"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textCursorDrawable="@null"
+                android:textSize="22sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edittextdiachikhachhang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#F9A423"
+                android:hint="Địa Chỉ"
+                android:inputType="textPersonName"
+                android:singleLine="true"
+                android:textCursorDrawable="@null"
+                android:textSize="22sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/buttonhuykhachhang"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:background="@drawable/rectangle_2"
+                android:padding="10dp"
+                android:text="Trở về"
+                android:fontFamily="@font/dmsans_bold"/>
+
+            <Button
+                android:id="@+id/buttonxacnhankhachhang"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/rectangle_1"
+                android:text="Xác nhận"
+                android:fontFamily="@font/dmsans_bold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".activity.LoginActivity">
+
+
+    <TextView
+        android:id="@+id/txt_dangnhap"
+        android:layout_width="176dp"
+        android:layout_height="47dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="76dp"
+        android:fontFamily="@font/dmsans_bold"
+        android:letterSpacing="-0.04"
+        android:text="Đăng nhập"
+        android:textColor="#E2C481"
+        android:textSize="36sp" />
+
+    <View
+        android:id="@+id/icon"
+        android:layout_width="118dp"
+        android:layout_height="195dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="148dp"
+        android:layout_marginTop="147dp"
+        android:background="@drawable/icon" />
+
+    <EditText
+        android:id="@+id/edt_username"
+        android:layout_width="305dp"
+        android:layout_height="58dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="387dp"
+        android:gravity="center"
+        android:background="@drawable/rectangle_2"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textColor="#2C2929"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="305dp"
+        android:layout_height="58dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="461dp"
+        android:gravity="center"
+        android:background="@drawable/rectangle_2"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        android:textColor="#2C2929"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="305dp"
+        android:layout_height="58dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="598dp"
+        android:background="@drawable/rectangle_1"
+        android:fontFamily="@font/dmsans_bold"
+        android:text="Đăng nhập"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/btn_back"
+        android:contentDescription="Quay lại"/>
+
+</RelativeLayout>

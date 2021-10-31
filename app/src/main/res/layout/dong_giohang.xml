@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:weightSum="10"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_margin="5dp"
+            android:adjustViewBounds="true"
+            android:id="@+id/imagivewanhgiohang"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+    </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textviewtengiohang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên sản phẩm"
+                android:textColor="#FFA500"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textviewgiagiohang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Giá sản phẩm"
+                android:textColor="#0062ff"
+                android:textSize="16sp" />
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:background="@drawable/rectangle_1"
+                    android:focusable="false"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:text="-"
+                    android:id="@+id/buttongiohangminus"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <Button
+                    android:layout_marginLeft="10dp"
+                    android:background="@null"
+                    android:focusable="false"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:text="1"
+                    android:id="@+id/buttongiohangvalues"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <Button
+                    android:background="@drawable/rectangle_1"
+                    android:layout_marginLeft="10dp"
+                    android:focusable="false"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:text="+"
+                    android:id="@+id/buttongiohangplus"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

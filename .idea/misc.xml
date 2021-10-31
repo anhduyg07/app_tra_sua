@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/drawable-v24/splash_background.xml" value="0.37864583333333335" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/drawable/back.xml" value="0.25243055555555555" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/drawable/border.xml" value="0.25243055555555555" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/drawable/border_cart.xml" value="0.25243055555555555" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/drawable/border_minus.xml" value="0.25243055555555555" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/drawable/border_thanhtoan.xml" value="0.25243055555555555" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/drawable/icon.xml" value="0.25243055555555555" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/drawable/outline_shopping_cart_24.xml" value="0.25243055555555555" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/drawable/rectangle_1.xml" value="0.25243055555555555" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/drawable/rectangle_2.xml" value="0.25243055555555555" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/drawable/spinner.xml" value="0.25243055555555555" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/layout/activity_chi_tiet_san_pham.xml" value="0.2" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/layout/activity_fruit_tea.xml" value="0.11860940695296524" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/layout/activity_gio_hang.xml" value="0.2" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/layout/activity_lien_he.xml" value="0.11860940695296524" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/layout/activity_ordersuccess.xml" value="0.24166666666666667" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/layout/activity_register.xml" value="0.18" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/layout/activity_san_pham_da_dat.xml" value="0.24166666666666667" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/layout/activity_thong_tin.xml" value="0.11860940695296524" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/layout/activity_thong_tin_khach_hang.xml" value="0.22" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/layout/activity_tra_sua.xml" value="0.11860940695296524" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/layout/activity_welcome.xml" value="0.18" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/layout/dong_fruit_tea.xml" value="0.11860940695296524" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/layout/dong_giohang.xml" value="0.11860940695296524" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/layout/dong_listview_loaisp.xml" value="0.11860940695296524" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/layout/dong_moinhat.xml" value="0.11860940695296524" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/layout/dong_trasua.xml" value="0.11860940695296524" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/layout/progressbar.xml" value="0.24166666666666667" />
+        <entry key="..\:/Project/Android/bantrasua/app/src/main/res/menu/menu.xml" value="0.1486111111111111" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

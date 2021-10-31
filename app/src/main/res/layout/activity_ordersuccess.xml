@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.OrdersuccessActivity">
+
+    <ImageView
+        android:id="@+id/ordersucces"
+        android:layout_width="369dp"
+        android:layout_height="369dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/ordersuccess"
+        />
+
+    <TextView
+        android:id="@+id/t_h_ng_th_n"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="463dp"
+        android:gravity="center"
+        android:letterSpacing="-0.03"
+        android:lineSpacingExtra="0sp"
+        android:text="Đặt hàng thành công"
+        android:textColor="#2E3A59"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/btn_home"
+        android:layout_width="305dp"
+        android:layout_height="58dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="555dp"
+        android:background="@drawable/rectangle_1"
+        android:fontFamily="@font/dmsans_bold"
+        android:text="Quay lại trang chủ"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+</RelativeLayout>
