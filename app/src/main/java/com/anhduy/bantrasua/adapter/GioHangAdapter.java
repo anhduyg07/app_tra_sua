@@ -69,7 +69,7 @@ public class GioHangAdapter extends BaseAdapter {
         Giohang gioHang= (Giohang) getItem(position);
         viewHolder.txttengiohang.setText(gioHang.getTensp());
         DecimalFormat decimalFormat=new DecimalFormat("###,###,###");
-        viewHolder.txtgiagiohang.setText("Gía : "+decimalFormat.format(gioHang.giasp)+" Đ");
+        viewHolder.txtgiagiohang.setText("Giá : "+decimalFormat.format(gioHang.giasp)+" Đ");
         Picasso.get()
                 .load(gioHang.getHinhanhsp())
                 .placeholder(R.drawable.outline_broken_image_black_48)
